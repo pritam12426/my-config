@@ -1,3 +1,6 @@
+" I am uring vim Plug for my package manager for nvim
+" :PlugInstall
+
 :set number
 :set relativenumber
 :set autoindent
@@ -5,12 +8,11 @@
 :set shiftwidth=4
 :set smarttab
 :set softtabstop=4
-:set mouse=a
-set nowrap
+:set nowrap
+" :set mouse=a
 
 call plug#begin() 
 Plug 'https://github.com/vim-airline/vim-airline' " Status bar
-Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
 Plug 'https://github.com/preservim/nerdtree' " NerdTree
 Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
 Plug 'https://github.com/vim-airline/vim-airline' " Status bar
@@ -20,4 +22,8 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 call plug#end()
 
+:colorscheme jellybeans
+
 nnoremap <C-b> :NERDTreeToggle<CR>
+nnoremap <C-j> :term<CR>
+

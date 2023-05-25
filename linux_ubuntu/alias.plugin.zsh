@@ -2,7 +2,7 @@
 
 alias lz='lazygit'
 alias erc='nvim ~/.zshrc'
-alias ncf="nvim ~/.config/nvim/init.vim" 
+alias enc="nvim ~/.config/nvim/init.vim" 
 alias addgitignore="python3 ~/Desktop/programing/system_script/git_lgnore/Mk_Git_Ignore.py"
 
 alias gdir='cd ~/Desktop/programing/github/'

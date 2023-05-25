@@ -9,7 +9,7 @@ alias erc='nvim ~/.bashrc'
 alias cdg='cd ~/Desktop/programing/github/'
 alias exiftool-f='exiftool -overwrite_original'
 alias hc='python3 ~/Desktop/programing/system_script/Clear_Bash_History.py' 
-alias rename_='python3 ~/Desktop/programing/github/Book-mark/Rename.py'
+alias rename_='python3 ~/Desktop/programing/system_script/Rename.py'
 alias cdir='cd ~/Desktop/programing/c_lan/'
 
 # -----------------------
