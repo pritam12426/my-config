@@ -5,10 +5,10 @@ alias h='history'
 alias erc='nvim ~/.bashrc'
 alias cdir='cd ~/Desktop/programing/c_lan/'
 alias cdg='cd ~/Desktop/programing/github/'
-alias rename_='python3 ~/Desktop/programing/system_script/Rename.py'
-alias hc='python3 ~/Desktop/programing/system_script/Clear_Bash_History.py'
-alias pushcon='python3 ~/Desktop/programing/system_script/Push_Config_To_Github.py'
-alias addgitignore="python3 ~/Desktop/programing/system_script/git_lgnore/Mk_Git_Ignore.py"
+alias rename_='python3 ~/Desktop/programing/system_script/rename.py'
+alias hc='python3 ~/Desktop/programing/system_script/clear_bash_history.py'
+alias pushcon='python3 ~/Desktop/programing/system_script/push_config_to_github.py'
+alias addgitignore="python3 ~/Desktop/programing/system_script/git_lgnore/mk_git_ignore.py"
 
 # -----------------------
 
