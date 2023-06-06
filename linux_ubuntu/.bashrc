@@ -1,16 +1,14 @@
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
-
 export PATH=$HOME/.local/bin:$PATH
 
 # Alias ---------------------------------------------------
 alias h='history'
 alias erc='nvim ~/.bashrc'
-alias cdg='cd ~/Desktop/programing/github/'
-alias exiftool-f='exiftool -overwrite_original'
-alias hc='python3 ~/Desktop/programing/system_script/Clear_Bash_History.py' 
-alias rename_='python3 ~/Desktop/programing/system_script/Rename.py'
 alias cdir='cd ~/Desktop/programing/c_lan/'
+alias cdg='cd ~/Desktop/programing/github/'
+alias rename_='python3 ~/Desktop/programing/system_script/Rename.py'
+alias hc='python3 ~/Desktop/programing/system_script/Clear_Bash_History.py'
+alias pushcon='python3 ~/Desktop/programing/system_script/Push_Config_To_Github.py'
+alias addgitignore="python3 ~/Desktop/programing/system_script/git_lgnore/Mk_Git_Ignore.py"
 
 # -----------------------
 
