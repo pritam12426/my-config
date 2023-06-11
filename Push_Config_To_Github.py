@@ -1,8 +1,7 @@
-# Ignre this file
-# This is my personal python scrpt 
+# Ignore this file
+# This is my personal python script
 # That can capable for finding changes in my 'config' files
 # And pushing to github
-# ----------------------------------------------------------
 
 import os
 import shutil
@@ -80,4 +79,3 @@ else:
 	Console().print(f"\n[color(9) bold]NOTHING IS CHANGED[/] >>> [color(11) bold]All file are up to date, nothing to commit[/]")
 
 exit()
-
