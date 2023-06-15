@@ -3,12 +3,12 @@ export PATH=$HOME/.local/bin:$PATH
 # Alias ---------------------------------------------------
 alias h='history'
 alias erc='nvim ~/.bashrc'
-alias cdir='cd ~/Desktop/programing/c_lan/'
-alias cdg='cd ~/Desktop/programing/github/'
-alias rename_='python3 ~/Desktop/programing/system_script/rename.py'
-alias hc='python3 ~/Desktop/programing/system_script/clear_bash_history.py'
-alias pushcon='python3 ~/Desktop/programing/system_script/push_config_to_github.py'
-alias addgitignore="python3 ~/Desktop/programing/system_script/git_lgnore/mk_git_ignore.py"
+alias cdir='cd ~/Desktop/programming/c_lan/'
+alias cdg='cd ~/Desktop/programming/github/'
+alias renamepwd='python3 ~/Desktop/programming/system_script/rename.py'
+alias hc='python3 ~/Desktop/programming/system_script/clear_bash_history.py'
+alias pushcon='python3 ~/Desktop/programming/system_script/push_config_to_github.py'
+alias addgitignore="python3 ~/Desktop/programming/system_script/git_lgnore/mk_git_ignore.py"
 
 # -----------------------
 
