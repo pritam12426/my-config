@@ -12,6 +12,7 @@ alias cdir='cd ~/Desktop/programming/c_lan'
 alias spdir='cd ~/Desktop/programming/system_script/'
 
 alias exiftool_f='exiftool -overwrite_original'
+alias rmdes='exiftool -overwrite_original -longdescription="" -description="" *'
 alias eza='nvim ~/.oh-my-zsh/plugins/alias/alias.plugin.zsh'
 alias pushcon='python3 ~/Desktop/programming/system_script/push_config_to_github.py'
 alias renamepwd='python3 ~/Desktop/programming/system_script/rename.py'
