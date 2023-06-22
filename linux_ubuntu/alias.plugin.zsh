@@ -18,6 +18,5 @@ alias pushcon='python3 ~/Desktop/programming/system_script/push_config_to_github
 alias renamepwd='python3 ~/Desktop/programming/system_script/rename.py'
 alias fff='python3 ~/Desktop/programming/system_script/play_ff_pp.py'
 alias ff='python3 ~/Desktop/programming/system_script/play_f_p.py'
-alias ff_r='ffmpeg -f x11grab -s 1366x768 -i :0.0 -f alsa -i hw:0 "/home/pritam/Videos/screencasts/ffmeg_$(date +'%Y-%m-%d_%H-%M-%S').mkv"' # Record screen by using 'ffmpeg'
 alias scrcpy_r='scrcpy -m 1080 --max-fps=60 -r ~/Videos/screencasts/scrcpy_$(date +'%Y-%m-%d_%H-%M-%S').mp4'
-
+alias actenv='source ~/Desktop/programming/python/date_sic/bin/activate'

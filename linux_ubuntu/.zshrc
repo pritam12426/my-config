@@ -78,11 +78,11 @@ plugins=(
 	# vi-mode #Vim key begind
 	alias    #Costome alias
 	history
-	zsh-plugin-reload #wil relode zhs file wthout living the bash
+	# zsh-plugin-reload #wil relode zhs file wthout living the bash
 	zsh-you-should-use #if and alise is presetn in the lift for the command this will infome me
-	dirhistory
+	# dirhistory
 	zsh-autosuggestions
-	#git
+	# git
 	)
 
 source $ZSH/oh-my-zsh.sh
