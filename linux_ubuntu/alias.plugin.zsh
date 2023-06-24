@@ -7,11 +7,11 @@ alias eza='nvim ~/.oh-my-zsh/plugins/alias/alias.plugin.zsh'
 
 # python system script
 alias lz='lazygit'
-alias ff='python3 ~/Desktop/programming/system_script/play_f_p.py'
-alias fff='python3 ~/Desktop/programming/system_script/play_ff_pp.py'
-alias renamepwd='python3 ~/Desktop/programming/system_script/rename.py'
-alias pushcon='python3 ~/Desktop/programming/system_script/push_config_to_github.py'
-alias addgitignore="python3 ~/Desktop/programming/system_script/git_lgnore/Mk_Git_Ignore.py"
+# alias ff='python3 ~/Desktop/programming/system_script/play_f_p.py'
+# alias fff='python3 ~/Desktop/programming/system_script/play_ff_pp.py'
+# alias renamepwd='python3 ~/Desktop/programming/system_script/rename.py'
+# alias pushcon='python3 ~/Desktop/programming/system_script/push_config_to_github.py'
+# alias addgitignore="python3 ~/Desktop/programming/system_script/git_lgnore/Mk_Git_Ignore.py"
 
 # Fro change dir()
 alias cdir='cd ~/Desktop/programming/c_lan/'

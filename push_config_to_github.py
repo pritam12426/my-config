@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 # Ignore this file
 # This is my personal python script
 # That can capable for finding changes in my 'config' files
