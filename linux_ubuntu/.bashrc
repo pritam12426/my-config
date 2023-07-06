@@ -12,7 +12,7 @@ alias spdir='cd ~/Desktop/programming/system_script/'
 # ----------------------------------------------------------
 
 HISTCONTROL=ignoreboth
-# export EDITOR='nvim'
+export EDITOR='nvim'
 # append to the history file, don't overwrite it
 shopt -s histappend
 
