@@ -71,7 +71,7 @@ if per:
 	else:
 		time = strftime("%d-%b-%Y, %H:%M:%S", localtime())
 		os.chdir(git_directory)
-		os.system("git pull origin main")
+		# os.system("git pull origin main")
 		os.system("git add .")
 		os.system(f"git commit -m 'Till >>> {time}\n\nMAKE CHANGES IN {done}'")
 		Console().print(f"\n[color(9) bold]{'COMMITED':7}[/] >>> '{len(done)}' files [color(11) bold]{done}[/]")
