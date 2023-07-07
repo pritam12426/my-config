@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Giving default file path.
+if [[ $# -eq 0 ]]; then
+	if [ -f "main.c" ]; then
+		file="main.c"
+		echo -e "<| Compling '$file' file. |>\n"
+	elif [ -f "main.cpp" ]; then
+		file="main.cpp"
+		echo -e "<| Compling '$file' file.|>\n"
+	else
+		echo "There is no file start with main.*"
+		exit 1
+	fi
+else
+	file="$1"
+fi
+
+
+# Checking file type.
+if [[ "$file" =~ .c$ ]]; then
+	command="/usr/bin/gcc"
+elif [[ "$file" =~ .cpp$ ]]; then
+	command="/usr/bin/cpp"
+elif [[ "$file" =~ .py$ ]]; then
+	python3 $file
+	exit 1
+else
+	echo "| '$file' Unknown file type."
+	exit 1
+fi
+
+no_extension="${file%.*}"
+
+# Make bin dir if it is not present.
+if ! [ -d "./bin" ]
+then
+	mkdir "./bin"
+fi
+
+# Run command for 'gcc' or 'gpp' according to the file type.
+"$command" "$file" -o "./bin/$no_extension.out"
+"./bin/$no_extension.out"
