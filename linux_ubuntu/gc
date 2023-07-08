@@ -5,12 +5,12 @@
 if [[ $# -eq 0 ]]; then
 	if [ -f "main.c" ]; then
 		file="main.c"
-		echo -e "<| Compling '$file' file. |>\n"
+		echo -e "# Compling '$file' file. #\n"
 	elif [ -f "main.cpp" ]; then
 		file="main.cpp"
-		echo -e "<| Compling '$file' file.|>\n"
+		echo -e "# Compling '$file' file. #\n"
 	else
-		echo "There is no file start with main.*"
+		echo " gc: missing operand "
 		exit 1
 	fi
 else
