@@ -2,7 +2,10 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/Desktop/programming/system_script:$PATH
 
 # Alias ---------------------------------------------------
+alias exit='history -c && exit'
 alias erc='nvim ~/.bashrc'
+alias hc='history -c'
+alias h='history'
 
 # Fro change dir()
 alias cdir='cd ~/Desktop/programming/c_lan/'
