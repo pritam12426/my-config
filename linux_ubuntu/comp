@@ -10,7 +10,7 @@ if [[ $# -eq 0 ]]; then
 		file="main.cpp"
 		echo -e "# Compling '$file' file. #\n"
 	else
-		echo " gc: missing operand "
+		echo " comp: missing operand "
 		exit 1
 	fi
 else
