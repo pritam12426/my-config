@@ -26,6 +26,9 @@ elif [[ "$file" =~ .cpp$ ]]; then
 elif [[ "$file" =~ .py$ ]]; then
 	python3 "$file"
 	exit 1
+elif [[ "$file" =~ .sh$ ]]; then
+	"./$file"
+	exit 1
 else
 	echo "| '$file' Unknown file type."
 	exit 1
@@ -34,8 +37,7 @@ fi
 no_extension="${file%.*}"
 
 # Make bin dir if it is not present.
-if ! [ -d "./bin" ]
-then
+if ! [ -d "./bin" ]; then
 	mkdir "./bin"
 fi
 
