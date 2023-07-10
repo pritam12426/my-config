@@ -27,3 +27,5 @@ call plug#end()
 nnoremap <C-b> :NERDTreeToggle<CR>
 nnoremap <C-j> :term<CR>
 
+nnoremap <A-k> :!comp %<CR>
+

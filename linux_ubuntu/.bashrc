@@ -7,7 +7,7 @@ alias lz='lazygit'
 alias hc='history -c'
 alias erc='nvim ~/.bashrc'
 alias exit='history -c && exit'
-alias eza='nvim ~/.oh-my-zsh/plugins/alias/alias.plugin.zsh'
+alias enc="nvim ~/.config/nvim/init.vim"
 
 # For change dir()
 alias cdir='cd ~/Desktop/programming/c_lan/'
