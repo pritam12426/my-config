@@ -22,7 +22,7 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 call plug#end()
 
-:colorscheme jellybeans
+" :colorscheme jellybeans
 
 nnoremap <C-b> :NERDTreeToggle<CR>
 nnoremap <C-j> :term<CR>

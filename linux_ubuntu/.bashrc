@@ -2,12 +2,13 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/Desktop/programming/system_script:$PATH
 
 # Alias ---------------------------------------------------
-alias exit='history -c && exit'
-alias erc='nvim ~/.bashrc'
-alias hc='history -c'
 alias h='history'
+alias lz='lazygit'
+alias hc='history -c'
+alias erc='nvim ~/.bashrc'
+alias exit='history -c && exit'
 
-# Fro change dir()
+# For change dir()
 alias cdir='cd ~/Desktop/programming/c_lan/'
 alias gdir='cd ~/Desktop/programming/github/'
 alias pydir='cd ~/Desktop/programming/python/practic/'
