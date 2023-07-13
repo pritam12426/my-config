@@ -43,6 +43,8 @@ fi
 
 # Run command for 'gcc' or 'gpp' according to the file type.
 "$command" "$file" -o "./bin/$no_extension.out"
+
 if [[ "$?" = 0 ]]; then
 	"./bin/$no_extension.out"
 fi
+

@@ -2,18 +2,19 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/Desktop/programming/system_script:$PATH
 
 # Alias ---------------------------------------------------
-alias h='history'
-alias lz='lazygit'
-alias hc='history -c'
-alias erc='nvim ~/.bashrc'
-alias exit='history -c && exit'
+alias h="history"
+alias lz="lazygit"
+alias hc="history -c"
+alias gfind="ls -a | grep"
+alias erc="nvim ~/.bashrc"
+alias exit="history -c && exit"
 alias enc="nvim ~/.config/nvim/init.vim"
 
 # For change dir()
-alias cdir='cd ~/Desktop/programming/c_lan/'
-alias gdir='cd ~/Desktop/programming/github/'
-alias pydir='cd ~/Desktop/programming/python/practic/'
-alias spdir='cd ~/Desktop/programming/system_script/'
+alias cdir="cd ~/Desktop/programming/c_lan/"
+alias gdir="cd ~/Desktop/programming/github/"
+alias pydir="cd ~/Desktop/programming/python/practic/"
+alias spdir="cd ~/Desktop/programming/system_script/"
 # ----------------------------------------------------------
 
 HISTCONTROL=ignoreboth
