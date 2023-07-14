@@ -4,11 +4,10 @@ export PATH=$HOME/Desktop/programming/system_script:$PATH
 # Alias ---------------------------------------------------
 alias h="history"
 alias lz="lazygit"
-alias hc="history -c"
 alias gfind="ls -a | grep"
 alias erc="nvim ~/.bashrc"
-alias exit="history -c && exit"
 alias enc="nvim ~/.config/nvim/init.vim"
+alias hc="history -c && cat /dev/null > ~/.bash_history"
 
 # For change dir()
 alias cdir="cd ~/Desktop/programming/c_lan/"
@@ -122,3 +121,4 @@ if ! shopt -oq posix; then
 	. /etc/bash_completion
   fi
 fi
+
